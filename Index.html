@@ -2,15 +2,41 @@
 <html>
 <head>
     <title>Mi Página Web con JavaScript</title>
+    <style>
+        /* Estilos CSS para centrar el botón en el medio */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        button {
+            /* Agrega estilos adicionales según tus preferencias */
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido a mi página web</h1>
+    <h1>Bienvenido a docto</h1>
     <p>Esta es una página en blanco que puedes editar a tu gusto.</p>
 
+    <button id="GoToMultiPower">
+        <img src="GoToMultiPower.png" alt="GoToMultiPower Button">
+    </button>
+
     <script>
-        // Tu código JavaScript personalizado puede ir aquí
-        // Por ejemplo:
-        // document.querySelector('h1').innerHTML = '¡Mi Página Personalizada!';
+        // Evento de redirección al hacer clic en el botón
+        document.getElementById('GoToMultiPower').addEventListener('click', function() {
+            // Redirige a la página "martingit10.github.io/multipower.html"
+            window.location.href = 'https://martingit10.github.io/multipower.html';
+        });
     </script>
+
+    <!-- Incluye el archivo index.js -->
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
 </body>
 </html>
