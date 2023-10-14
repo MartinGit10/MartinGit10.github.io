@@ -3,7 +3,7 @@
 <head>
     <title>MultiStudio Info</title>
     <style>
-        /* Estilos CSS para centrar el botón en el medio */
+        /* Estilos CSS para centrar el botón en el medio y establecer la imagen de fondo */
         body {
             display: flex;
             flex-direction: column;
@@ -11,6 +11,8 @@
             justify-content: center;
             height: 100vh;
             margin: 0;
+            background-image: url('MultiStudioInfoBackground.png'); /* Agrega la URL de la imagen de fondo */
+            background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
         }
 
         button {
@@ -20,7 +22,7 @@
 </head>
 <body>
     <h1>MultiStudio Info</h1>
-    <p>Esta es la pagina que recopila toda la informacion sobre MultiStudio.</p>
+    <p>Esta es la página que recopila toda la información sobre MultiStudio.</p>
 
     <button id="GoToMultiPower">
         <img src="GoToMultiPower.png" alt="Ir A MultiPower">
@@ -37,6 +39,5 @@
     <!-- Incluye el archivo index.js -->
     <script src="index.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
-    
 </body>
 </html>
