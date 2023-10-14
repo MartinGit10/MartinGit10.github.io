@@ -7,7 +7,12 @@ h1 {
 }
 
 /* Estilos para el párrafo */
-p {
+p1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+p2 {
     font-size: 24px;
     text-align: center;
 }
